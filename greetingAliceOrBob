@@ -1,0 +1,24 @@
+
+public class Greeter
+public static void main (String[] args) {
+stringline;
+Scanner scanner = new Scanner(System.in);
+System.out.print("Enter your name: ");
+String name = scanner.nextLine();
+
+String aliceOrBob (name) {
+  if (name === "Alice" || name === "alice") {
+
+     System.out.println("Hello, " + name + "!");
+
+  } else if (name === "Bob" || name === "bob") {
+       
+      System.out.println("Hello, " + name + "!")
+  } else {
+     
+      System.out.println("You are neither Alice nor Bob."
+
+  }
+
+}
+
